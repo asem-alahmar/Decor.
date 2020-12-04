@@ -1,0 +1,191 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(248, 248, 248);
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1,h2,h3,h4,h5{
+  font-family: 'Lora', serif;
+}
+
+h1{
+  font-size: 30px;
+  margin-left: inherit
+}
+
+nav{
+  height: 1px;
+  margin-bottom: 3rem;
+}
+
+nav h1{
+  float: left;
+}
+
+ul{
+  float: right;
+}
+
+li{
+  font-size: 20px;
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+  line-height: 3rem;
+}
+
+li a{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.2em 0.8em 0.2em 0.8em;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+li a:hover{
+  background-color: white;
+  transition: 0.3s;
+}
+
+.featured-1{
+  width: 100%;
+  height: 56rem;
+}
+
+.featured-1 center{
+  position: relative;
+  top: 6rem;
+  color: black;
+}
+
+.featured-text{
+  letter-spacing: 10px;
+}
+
+.Decor {
+  background-image: url("../img/1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+	
+.featured-2{
+  width: 49%;
+  height: 20rem;
+
+}
+
+.featured-2 center{
+  position: relative;
+  top: 6rem;
+  color: white;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.img2{
+  background-image: url("../img/2.jpeg");
+  background-size: cover;
+}
+
+.img3{
+  background-image: url("../img/3.jpg");
+  background-size: cover;
+}
+
+.img4{
+  background-image: url("../img/4.jpg");
+  background-size: cover;
+  background-position: 0rem -15rem;
+}
+.card{
+  width: 30%;
+  float: left;
+  background-color: white;
+  margin-left: 3%;
+  transition: 0.2s;
+}
+
+.card:hover{
+  box-shadow: 0 0 10px 0px black;
+  transition: 0.2s;
+}
+
+.img{
+  width: 100%;
+}
+
+.image{
+  width: 100%;
+  height: 20rem;
+}
+
+.img11{
+  background-image: url("../img/2.jpg");
+  background-size: cover;
+}
+
+.img22{
+  background-image: url("../img/22.jpg");
+  background-size: cover;
+}
+
+.img33{
+  background-image: url("../img/3.jpg");
+  background-size: cover;
+}
+
+.info{
+  padding: 2rem;
+}
+
+.more{
+  background-color: white;
+  height: 5rem;
+  line-height: 5rem;
+  transition: 0.5s;
+  width: 30%;
+}
+
+a .more:hover{
+  box-shadow: 0 0 10px 0px black;
+  transition: 0.5s;
+}
+
+footer{
+  width: 100%;
+  background-color: rgb(33, 33, 33);
+  height: 5rem;
+}
+
+footer p{
+  line-height: 5rem;
+  color: white;
+  font-family: 'Lora', serif;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  padding-left: 0.8em;
+}
